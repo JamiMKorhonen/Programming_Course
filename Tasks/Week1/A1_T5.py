@@ -1,3 +1,6 @@
+# Copied from GitHub Classroom
+# Week 1 - Task 5
+
 print("Calculate the area of a wall.")
 
 Feed = input("Enter the width in meters: ")

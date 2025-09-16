@@ -1,3 +1,6 @@
+# Copied from GitHub Classroom
+# Week 1 - Task 6
+
 Feed = input("Insert an integer: ")
 Value = int(Feed)
 
