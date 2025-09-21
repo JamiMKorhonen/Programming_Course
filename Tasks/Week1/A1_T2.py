@@ -1,17 +1,20 @@
+# A1_T2 Print variables
 
-#    Assign variable Name1 with string “John”
+# Create a Python file and name it “A1_T2.py”. Then make the program to do the following proceedures:
+
+# Assign variable Name1 with string “John”
 Name1 = "John"
-#    Print variable Name1
+# Print variable Name1
 print(Name1)
-#    Assign variable Name2 with string “Harry”
+# Assign variable Name2 with string “Harry”
 Name2 = "Harry"
-#    Print variable Name2
+# Print variable Name2
 print(Name2)
-#    Print variables Name1 and Name2 on the same row separated by a space character
+# Print variables Name1 and Name2 on the same row separated by a space character
 print(Name1, Name2)
-#    Print “{Name1} is eating ice cream with {Name2}”.
+# Print “{Name1} is eating ice cream with {Name2}”.
 print(Name1, "is eating ice cream with", Name2)
-#    Print “John and Harry are friends” by using the previously defined variables.
+# Print “John and Harry are friends” by using the previously defined variables.
 print(Name1, "and", Name2, "are friends")
 
 #Example program run:
