@@ -32,4 +32,3 @@ print("Program ending.")
 # 2nd word is 7 characters long.
 # Words together makes one closed compound 'firefighter'.
 # Program ending.
-

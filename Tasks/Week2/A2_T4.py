@@ -61,4 +61,3 @@ print("Program ending.")
 # Average per task was 10.71 min and same rounded to the nearest integer 11 min.
 
 # Program ending.
-
