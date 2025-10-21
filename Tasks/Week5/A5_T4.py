@@ -22,21 +22,21 @@
 # print("end")
 
 
-########### WIP
+print("Program starting.")
 
-# def askDimension(PPrompt: str) -> float:
-#    Feed = input("Insert number: ")
-#    return Feed
+def askDimension(PPrompt: str) -> float:
+   Feed = float(input(f"Insert {PPrompt}: "))
+   return Feed
 
-# PWidth = input("Insert width: ")
-# PHeight = input("Insert height: ")
+Width = askDimension("width")
+Height = askDimension("height")
 
-# def calcRectangleArea(PWidth: float, PHeight: float) -> float:
-#    PWidth = Area * PHeight
-#    return Sum
+def calcRectangleArea(PWidth: float, PHeight: float) -> float:
+   Area = PWidth * PHeight
+   return Area
 
+Area = calcRectangleArea(Width, Height)
 
-# Area = calculateArea()
-# print("")
-# print("Area is {Area}²")
-# print("end")
+print(f"\nArea is {Area}²")
+
+print("Program ending.")
