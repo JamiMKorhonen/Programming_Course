@@ -16,7 +16,7 @@
 
 
 def main():
-    print("\nOptions:")
+    print("Options:")
     print("1 - Insert word")
     print("2 - Show current word")
     print("3 - Show current word in reverse")
