@@ -30,7 +30,7 @@
 #         E.g., "Value in 2 decimal precision {:.2f}".format(3.555)
 
 
-def analyzeNames(Psourcefile):
+def fetchNames(Psourcefile):
     print(f"Reading names from \"{Psourcefile}\".")
 
     sourcecontent = ""
@@ -81,7 +81,7 @@ def main():
 
     sourcefile = input("Insert filename to read: ")
 
-    sourcecontent = analyzeNames(sourcefile)
+    sourcecontent = fetchNames(sourcefile)
     createReport(sourcecontent)
  
     print("Program ending.")
