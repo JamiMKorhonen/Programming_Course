@@ -1,0 +1,4 @@
+Measured speeds for dataset 'A10_D10.txt':
+ - Built-in sorted 5700 ns
+ - Buble sort 23400 ns
+ - Quick sort 16900 ns
